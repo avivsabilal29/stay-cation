@@ -1,6 +1,8 @@
 import React from 'react'
 import { Link } from 'react-router-dom'
 import propTypes from 'prop-types'
+// import PropTypes from 'prop-types'
+
 
 
 
@@ -53,13 +55,13 @@ Button.propTypes = {
     target: propTypes.string,
     href: propTypes.string,
     className: propTypes.string,
-    isExternal: propTypes.boll,
-    isDisabled: propTypes.boll,
-    isLoading: propTypes.boll,
-    isSmall: propTypes.boll,
-    isLarge: propTypes.boll,
-    isBlock: propTypes.boll,
-    hasShadow: propTypes.boll,
+    isExternal: propTypes.bool,
+    isDisabled: propTypes.bool,
+    isLoading: propTypes.bool,
+    isSmall: propTypes.bool,
+    isLarge: propTypes.bool,
+    isBlock: propTypes.bool,
+    hasShadow: propTypes.bool,
 
 
 }

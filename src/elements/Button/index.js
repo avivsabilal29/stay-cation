@@ -46,7 +46,7 @@ export default function Button(props) {
         }
     }
 
-    return <Button className={className.join(" ")} style={props.style} onClick={onClick}>{props.children}</Button>
+    return <button className={className.join(" ")} style={props.style} onClick={onClick}>{props.children}</button>
 }
 
 Button.propTypes = {
@@ -56,6 +56,7 @@ Button.propTypes = {
     href: propTypes.string,
     className: propTypes.string,
     isExternal: propTypes.bool,
+    isPrimary: propTypes.bool,
     isDisabled: propTypes.bool,
     isLoading: propTypes.bool,
     isSmall: propTypes.bool,
